@@ -2,7 +2,9 @@ import React from 'react'
 import './navbar.css'
 import navButton from '../../assets/image/bg2.jpg'
 import {useState} from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import logo from '../../assets/image/logo.png'
 function NavBar() {
     let [navShown,setNavShown]=useState(false)
     let handleNavBtn=()=>{
@@ -13,8 +15,8 @@ function NavBar() {
   return (
     <div>
         <nav>
-            <img onClick={handleNavBtn} className='nav-btn' src={navButton} alt='Nav Button'></img>
-            <p className="logo">Logo</p>
+            <FontAwesomeIcon className='nav-btn' icon={faBars} onClick={handleNavBtn}  />
+            <a href='#'> <img src={logo} className="logo"/></a>
             <div className= {navShown ? 'nav-lists show-nav-bar' :'nav-lists'}>
                 <ul>
                     <li><a href='#'> Services  </a></li>
