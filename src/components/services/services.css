@@ -35,7 +35,7 @@
 .service-list .service{
     position: relative;
     padding: 30px;
-    box-shadow: 1px 1px 4px rgb(23, 113, 187);
+    box-shadow: 1px 1px 4px rgb(196, 192, 192);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -49,10 +49,11 @@
     width: 50%;
 }
 .service:hover{
-    box-shadow: 1px 1px 10px rgb(23, 113, 187);
+    box-shadow: 1px 1px 10px rgb(196, 192, 192);
 }
 .service p{
     text-align: justify;
+    color: rgb(90, 90, 90);
 }
 
 .service-btn{

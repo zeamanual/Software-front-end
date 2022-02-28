@@ -15,20 +15,20 @@ function Service() {
             <div className='service'>
                 <img src={webDev}  alt='service image'></img>
                 <h2 className='titile'>Web Development</h2>
-                <p>information about servieinformation about servie information about servieinformation about servie information about servieinformation about servie </p>
+                <p>information about servie information about servie information about servieinformation about servie information about servieinformation about servie </p>
                 <FontAwesomeIcon className='arrow' icon={faArrowRight}></FontAwesomeIcon>
             </div>
             <div className='service'>
                 <img src={mobileDev}  alt='service image'></img>
                 <h2 className='titile'>Mobile App Development</h2>
-                <p>information about servieinformation about servie information about servieinformation about servie information about servieinformation about servie </p>
+                <p>information about servie information about servie information about servieinformation about servie information about servieinformation about servie </p>
                 <FontAwesomeIcon className='arrow' icon={faArrowRight}></FontAwesomeIcon>
                 
             </div>
             <div className='service'>
                 <img src={eComm}  alt='service image'></img>
                 <h2 className='titile'>E-Commerice</h2>
-                <p>information about servieinformation about servie information about servieinformation about servie information about servieinformation about servie </p>
+                <p>information about servie information about servie information about servieinformation about servie information about servieinformation about servie </p>
                 <FontAwesomeIcon className='arrow' icon={faArrowRight}></FontAwesomeIcon>
             </div>
         </div>
