@@ -8,7 +8,7 @@ import { faQuoteLeft,faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 
 function Testimonial(){
 
-    return <div className='testimonials'>
+    return <div id='testimonial' className='testimonials'>
         <h2 className='title'>What People Say About Us</h2>
         <div className='testimonial'>
             <div className='card'>

@@ -5,13 +5,13 @@ import { faLocationDot,faEnvelope, faPhone } from '@fortawesome/free-solid-svg-i
 
 function Contact() {
   return (
-    <section className='contact-us-container'>
+    <section id='contact' className='contact-us-container'>
    <h2 className='title'>Get In Touch</h2>
    <div className='contact-detail'>
     <form className='contact-form'>
             <input className='field' type = 'text' name='name' id='name' placeholder='Name'></input>
             <input className='field' type = 'text' name='email' id='email' placeholder='Email'></input>
-            <textarea  className='field' name='message'  id ='message' rows='5' placeholder='Message'></textarea>
+            <textarea  className='field' name='message'  id ='message' rows='5' placeholder='Message' style={{resize:'none'}}></textarea>
             <button className='submit-btn'>Submit</button>
     </form>
     <div className='contact-information'>

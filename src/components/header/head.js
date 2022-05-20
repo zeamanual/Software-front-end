@@ -7,13 +7,13 @@ import descImg from '../../assets/image/intro-img.png'
 function Header() {
   return (
     <>
-    <header className='header'>
+    <header id='header' className='header'>
         <NavBar></NavBar>
         <div className='company-desc'>
            <div className='text'>
               <h2>Z-Tech</h2>
               <p><span>Technology Solutions  </span>For Your Business</p>
-              <button className='btn'>Get Started</button>
+              <a className='btn' href='#service'>Get Started</a>
            </div>
            <div className='img'>
             <img src ={descImg}/>

@@ -19,11 +19,11 @@ function NavBar() {
             <a href='#'> <img src={logo} className="logo"/></a>
             <div className= {navShown ? 'nav-lists show-nav-bar' :'nav-lists'}>
                 <ul>
-                    <li><a href='#'> Services  </a></li>
+                    <li><a href='#service'> Services  </a></li>
                     <li><a href='#'>  About </a></li>
-                    <li><a href='#'>  Expertise </a></li>
+                    <li><a href='#'>  Teams </a></li>
                 </ul>
-                <button className="contact-us-btn">Contact Us</button>
+                 <a className="contact-us-btn" href='#contact'>Contact Us </a>
             </div>
         </nav>
     </div>

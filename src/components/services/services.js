@@ -9,7 +9,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 function Service() {
   return (
-    <div className='services'>
+    <div id='service' className='services'>
         <h2 className='title'>Our Services</h2>
         <div className='service-list'>
             <div className='service'>
