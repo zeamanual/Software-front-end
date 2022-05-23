@@ -19,7 +19,7 @@ footer .second-row{
     border-top: 2px solid rgb(197, 195, 195) ;
 }
 .second-row span{
-    /* background-color: yellow; */
+    
     color: white;
     font-family: 'Lobster', cursive;
 }
@@ -43,7 +43,6 @@ footer .company-information{
 }
 .company-information span{
     color: rgb(10, 115, 163);
-    /* color: rgb(0, 174, 255); */
     font-size: 1.5em;
     font-family: 'Lobster', cursive;
 }

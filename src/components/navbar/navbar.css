@@ -58,18 +58,23 @@ li a{
         align-items: center;
         justify-content: space-between;
         padding: 0 10vw;
-        /* padding: 0 150px; */
     }
     .nav-lists ul li{
+        font-size: 1.2em;
         color: white;
         display: inline;
-        padding: 0 30px;
-        
+        margin: 0 30px;
+        padding: 0.3em 0.5em;
+        transition: border-bottom 0.1s linear;   
+    }
+    .nav-lists li:hover{
+        border-bottom: 3px solid white;
+       
     }
 
 }
 
-@media  all and (max-width:679px) {
+@media  all and (max-width:700px) {
     nav{
         position: relative;
         display: grid;

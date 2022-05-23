@@ -6,11 +6,12 @@
 }
 
 .testimonials .title{
-    /* font-family: 'Lobster', cursive;
-    font-family: 'Fjalla One', sans-serif; */
     text-align: center;
     padding-bottom: 1em;
-    border-bottom: 5px solid rgb(23, 113, 187);
+    padding-left: 1em;
+    border-left:10px solid rgb(23, 113, 187);
+    border-bottom: 10px solid rgb(23, 113, 187);
+ 
 }
 
 .testimonials .card{

@@ -5,10 +5,11 @@
 }
 
 .services .title{
-    padding: 60px 0 20px 0;
+    margin-top: 2em;
+    padding:0 0 .8em 1em;
     margin-bottom: 40px;
-  
-    border-bottom: 5px solid rgb(23, 113, 187);
+    border-left:10px solid rgb(23, 113, 187);
+    border-bottom: 10px solid rgb(23, 113, 187);
 }
 .arrow{
     color:rgb(23, 113, 187);
