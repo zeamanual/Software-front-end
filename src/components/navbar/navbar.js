@@ -15,7 +15,7 @@ function NavBar() {
     <div>
         <nav>
             <FontAwesomeIcon className='nav-btn' icon={faBars} onClick={handleNavBtn}  />
-            <a href='#header'> <img src={logo} className="logo"/></a>
+            <a href='#header'> <img src={logo} alt='company logo' className="logo"/></a>
             <div className= {navShown ? 'nav-lists show-nav-bar' :'nav-lists'}>
                 <ul>
                     <li><a href='#service'> Services  </a></li>
