@@ -39,11 +39,11 @@ function Footer(){
                 <h2 className='title'>Stay Connected</h2>
                 <div className='icons'>
 
-                <a href=''> <FontAwesomeIcon className='icon git' icon={faGithub}></FontAwesomeIcon></a>
-                <a href=''><FontAwesomeIcon className='icon twitter' icon={faTwitter}></FontAwesomeIcon></a> 
-                <a href=''><FontAwesomeIcon className='icon facebook' icon={faFacebook}></FontAwesomeIcon></a>
-                <a href=''><FontAwesomeIcon className='icon linkedin' icon={faLinkedin}></FontAwesomeIcon></a>
-                <a href=''><FontAwesomeIcon className='icon email' icon={faEnvelope}></FontAwesomeIcon></a>
+                <a href='github.com'> <FontAwesomeIcon className='icon git' icon={faGithub}></FontAwesomeIcon></a>
+                <a href='twitter.com'><FontAwesomeIcon className='icon twitter' icon={faTwitter}></FontAwesomeIcon></a> 
+                <a href='facebook.com'><FontAwesomeIcon className='icon facebook' icon={faFacebook}></FontAwesomeIcon></a>
+                <a href='linkedin.com'><FontAwesomeIcon className='icon linkedin' icon={faLinkedin}></FontAwesomeIcon></a>
+                <a href='gmail.com'><FontAwesomeIcon className='icon email' icon={faEnvelope}></FontAwesomeIcon></a>
                 </div>
             </div>
         </div>
