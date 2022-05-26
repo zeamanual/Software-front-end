@@ -16,7 +16,7 @@ function Header() {
               <a className='btn' href='#service'>Get Started</a>
            </div>
            <div className='img'>
-            <img src ={descImg}/>
+            <img src ={descImg} alt='teams'/>
            </div>
         </div>
     </header>

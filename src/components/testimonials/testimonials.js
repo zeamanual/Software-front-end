@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import person1 from '../../assets/image/p1.jpeg'
 import person2 from '../../assets/image/p2.jpg'
 import person3 from '../../assets/image/p3.png'
 import person4 from '../../assets/image/p4.png'
@@ -16,7 +15,7 @@ function Testimonial(){
                  <p className='comment'>For decades i have been trying to break through my barriers to have a global customer of my products. For the first time I'm genuinely excited for being able to pass this barrier with you guys. I am greateful for your service</p>
                  <FontAwesomeIcon className='right-quote' icon={faQuoteRight}> </FontAwesomeIcon>
                  <div className='personal-info'>
-                    <img src={person2} alt='person image'></img>
+                    <img src={person2} alt='person one'></img>
                     <h2 className='name'>Alex</h2>
                     <p className='origin'>Graphic Designer</p>
                  </div>
@@ -26,7 +25,7 @@ function Testimonial(){
                  <p className='comment'>For decades i have been trying to break through my barriers to have a global customer of my products. For the first time I'm genuinely excited for being able to pass this barrier with you guys. I am greateful for your service</p>
                  <FontAwesomeIcon className='right-quote' icon={faQuoteRight}> </FontAwesomeIcon>
                  <div className='personal-info'>
-                    <img src={person3} alt='person image'></img>
+                    <img src={person3} alt='person two'></img>
                     <h2 className='name'>Simon</h2>
                     <p className='origin'>Content Writer</p>
                  </div>
@@ -36,7 +35,7 @@ function Testimonial(){
                  <p className='comment'>For decades i have been trying to break through my barriers to have a global customer of my products. For the first time I'm genuinely excited for being able to pass this barrier with you guys. I am greateful for your service</p>
                  <FontAwesomeIcon className='right-quote' icon={faQuoteRight}> </FontAwesomeIcon>
                  <div className='personal-info'>
-                    <img src={person4} alt='person image'></img>
+                    <img src={person4} alt='person three'></img>
                     <h2 className='name'>John</h2>
                     <p className='origin'>Store Owner</p>
                  </div>

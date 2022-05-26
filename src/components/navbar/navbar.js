@@ -1,6 +1,5 @@
 import React from 'react'
 import './navbar.css'
-import navButton from '../../assets/image/bg2.jpg'
 import {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -16,12 +15,12 @@ function NavBar() {
     <div>
         <nav>
             <FontAwesomeIcon className='nav-btn' icon={faBars} onClick={handleNavBtn}  />
-            <a href='#'> <img src={logo} className="logo"/></a>
+            <a href='#header'> <img src={logo} className="logo"/></a>
             <div className= {navShown ? 'nav-lists show-nav-bar' :'nav-lists'}>
                 <ul>
                     <li><a href='#service'> Services  </a></li>
-                    <li><a href='#'>  About </a></li>
-                    <li><a href='#'>  Teams </a></li>
+                    <li><a href='#about'>  About </a></li>
+                    <li><a href='#teams'>  Teams </a></li>
                 </ul>
                  <a className="contact-us-btn" href='#contact'>Contact Us </a>
             </div>
