@@ -19,9 +19,10 @@
     position: relative;
     flex-direction: column;
     align-items: center;
-    border: 3px solid rgb(23, 113, 187);
+    /* border: 3px solid rgb(23, 113, 187); */
+    box-shadow: 2px 2px 5px rgb(138, 137, 137);
     border-radius: 1em;
-    min-width: 10em;
+    min-width: 250px;
     max-width: 16em;
     padding: 1em;
     margin: 5em 0.9em;

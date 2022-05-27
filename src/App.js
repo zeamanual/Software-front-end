@@ -4,7 +4,7 @@ import Service from "./components/services/services";
 import Testimonial from "./components/testimonials/testimonials";
 import Contact from "./components/contact-form/contact";
 import Footer from "./components/footer/footer";
-
+import {Carousel} from './components/carousel/carousel'
 
 function App() {
   return (
