@@ -14,7 +14,7 @@
     position: relative;
     max-width: 80vw;
     overflow: hidden;
-    padding: 1em;
+    padding: 1.3em 1em;
 }
 .carousel  .carousel-btn{
     z-index: 10;
