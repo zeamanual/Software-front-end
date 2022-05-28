@@ -49,6 +49,7 @@ function Footer(){
         </div>
         <div className='second-row'>
         <p><span>Z-Tech </span> All rights reserved  <FontAwesomeIcon icon={ faCopyright}></FontAwesomeIcon> 2022 </p>
+        <p>Designed By <a href= 'mailto:zeamanualfeleke@gmail.com'><span>Zeamanual Feleke</span> </a></p>
         </div>
     </footer>
     )
