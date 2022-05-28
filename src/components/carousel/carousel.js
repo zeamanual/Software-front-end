@@ -9,12 +9,12 @@ function Carousel({children,itemCount,itemSize}){
     let position =0
     let carouselShiftSize = itemSize
     let sliderHnadler=(direction)=>{
-        if(direction=='LEFT'){
+        if(direction==='LEFT'){
             if(position<0){
                 position=position+carouselShiftSize
                 innerContainer.current.style.transform = `translate(${position}px)`
             }
-        }else if(direction == 'RIGHT'){
+        }else if(direction === 'RIGHT'){
 
             if(position>(-1*(carouselShiftSize*(itemCount-1)))){
                 position=position-carouselShiftSize
