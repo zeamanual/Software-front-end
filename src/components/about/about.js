@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import img from '../../assets/image/bg4.jpg'
 import logo from '../../assets/image/logo.png'
 
 function About() {
