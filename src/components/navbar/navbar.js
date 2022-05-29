@@ -20,9 +20,11 @@ function NavBar() {
                 <ul>
                     <li><a href='#service'> Services  </a></li>
                     <li><a href='#about'>  About </a></li>
-                    <li><a href='#teams'>  Teams </a></li>
+                    <li><a href='#teams'>  Teams </a></li> 
+                    <li><a href='#testimonial'>  Client FeedBack </a></li>
+                    <a className="contact-us-btn" href='#contact'>Contact Us </a>
                 </ul>
-                 <a className="contact-us-btn" href='#contact'>Contact Us </a>
+                
             </div>
         </nav>
     </div>

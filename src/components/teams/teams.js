@@ -3,14 +3,13 @@ import './teams.css'
 import person1Img from '../../assets/image/p2.jpg'
 import person2Img from '../../assets/image/p3.png'
 import person3Img from '../../assets/image/p4.png'
-import person4Img from '../../assets/image/p1.jpeg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 function Teams() {
   return (
-    <secion className='teams'>
+    <secion id='teams' className='teams'>
         <h2 className='title'>Meet Our Team</h2>
         <div className='team-desc'>
             <div className='team'>

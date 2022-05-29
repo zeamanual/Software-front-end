@@ -22,15 +22,18 @@ function Footer(){
             <div className='footer-services'>
                 <h2 className='title'>Our Services</h2>
                 <a href='#service'> <li>Web Development</li></a>
-                <a href='#service'><li>Mobile App Development</li></a>
+                <a href='#service'><li>Android App Development</li></a>
+                <a href='#service'><li>IOS App Development</li></a>
                <a href='#service'> <li>Eccomerce</li></a>
                 <a href='#service'><li>Consultancy</li></a>
             </div>
             <div className='footer-services'>
                 <h2 className='title'>Quick Navigation</h2>
 
-                <a href='#header'><li>Back To Top</li></a>
+                {/* <a href='#header'><li>Back To Top</li></a> */}
                 <a href='#service'><li>Services</li></a>
+                <a href='#about'><li>About Us</li></a>
+                <a href='#teams'><li>Teams</li></a>
                 <a href='#testimonial'><li>Client FeedBack</li></a>
                 <a href='#contact'><li>Contact</li></a>
 

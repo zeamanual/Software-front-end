@@ -14,7 +14,7 @@ function Service() {
         <div className='service-list'>
             <div className='service'>
                 <img src={webDev}  alt='web'></img>
-                <h2 className='titile'>Web Development</h2>
+                <h2 className='titile'>Website Development</h2>
                 <p>information about servie information about servie information about servieinformation about servie information about servieinformation about servie </p>
                 <FontAwesomeIcon className='arrow' icon={faArrowRight}></FontAwesomeIcon>
             </div>
