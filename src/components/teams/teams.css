@@ -1,0 +1,84 @@
+.teams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teams > .title{
+    margin-top: 2em;
+    padding:0 0 .8em 1em;
+    margin-bottom: 40px;
+    border-left:10px solid rgb(23, 113, 187);
+    border-bottom: 10px solid rgb(23, 113, 187);
+}
+.team img{
+    width: 260px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.team-info{
+    padding: 1em;
+    position: absolute;
+    z-index: 3;
+    top:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(56, 56, 56, 0.6);
+    margin-left: 270px;
+    transition: margin-left 0.3s linear;
+}
+.team-info .title{
+    color: white;
+    
+}
+.team-info .role{
+    color: rgb(226, 225, 225);
+    text-align: justify;
+    margin-top: 1em;
+    font-family: 'Lobster', cursive;
+}
+.team-info .links{
+    display: flex;
+    margin-top: 2em;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.team-desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team .img-container {
+    position: relative;
+    margin: 3em 1em;
+    border-radius: 1em;
+    overflow: hidden;
+}
+.img-container:hover .team-info{
+    opacity: 1;
+    margin-left: 0;
+}
+.team-info .icon:hover{
+    animation: icon 0.5s linear;
+}
+.team-info .icon{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.team-info .icon-linkedin{
+    color:rgb(10, 102, 194);
+}
+.team-info .icon-twitter{
+    color:rgb(2, 133, 248)
+}
+.team-info .icon-git{
+    color:rgb(14, 27, 39)
+}
