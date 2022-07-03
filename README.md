@@ -1,5 +1,5 @@
 
-url for the website is https://zeamanualfeleke-landing-page.netlify.app
+The website is launched on netlify, the link for the site is https://zeamanualfeleke-landing-page.netlify.app
 
 # Getting Started with Create React App
 
