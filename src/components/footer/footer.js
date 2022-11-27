@@ -42,11 +42,11 @@ function Footer(){
                 <h2 className='title'>Stay Connected</h2>
                 <div className='icons'>
 
-                <a href='github.com'> <FontAwesomeIcon className='icon git' icon={faGithub}></FontAwesomeIcon></a>
-                <a href='twitter.com'><FontAwesomeIcon className='icon twitter' icon={faTwitter}></FontAwesomeIcon></a> 
-                <a href='facebook.com'><FontAwesomeIcon className='icon facebook' icon={faFacebook}></FontAwesomeIcon></a>
-                <a href='linkedin.com'><FontAwesomeIcon className='icon linkedin' icon={faLinkedin}></FontAwesomeIcon></a>
-                <a href='gmail.com'><FontAwesomeIcon className='icon email' icon={faEnvelope}></FontAwesomeIcon></a>
+                <a href='https://github.com/zeamanual' target={'_blank'} rel="noreferrer"> <FontAwesomeIcon className='icon git' icon={faGithub}></FontAwesomeIcon></a>
+                <a href='https://www.linkedin.com/in/zeamanual-feleke-541310229/' target={'_blank'} rel="noreferrer"><FontAwesomeIcon className='icon linkedin' icon={faLinkedin}></FontAwesomeIcon></a>
+                <a href='mailto:zeamanualfeleke@gmail.com'><FontAwesomeIcon className='icon email' icon={faEnvelope}></FontAwesomeIcon></a>
+                <a href='https://facebook.com' target={'_blank'} rel="noreferrer"><FontAwesomeIcon className='icon facebook' icon={faFacebook}></FontAwesomeIcon></a>
+                <a href='https://twitter.com' target={'_blank'} rel="noreferrer"><FontAwesomeIcon className='icon twitter' icon={faTwitter}></FontAwesomeIcon></a> 
                 </div>
             </div>
         </div>
